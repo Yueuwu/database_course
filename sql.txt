@@ -1,0 +1,3 @@
+SELECT * FROM mydb.director WHERE directorname = 'Петров';
+SELECT * FROM mydb.group WHERE groupname = 'Группa№1';
+SELECT * FROM mydb.director, mydb.employee WHERE directorname = 'Петров';
